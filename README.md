@@ -4,7 +4,10 @@ This project is to find neutron coded pairs in MS1 spectra, as an cooperation pr
 # Change log
 
 ## v1.0.1 (2016-8-31)
-**Add new input format: FindNeutron.exe test.config**
+
+**(1)Output the m/z when the peak intensity is the max in each XIC**
+
+**(2) Add new input format: FindNeutron.exe test.config**
 
 All the 15 paramters were listed in the config file as follows:
 
@@ -45,6 +48,7 @@ MAX\_R\_NUM	3 //R number in a peptide sequence	 2016-7-29
 PEAKPAIR\_LIMIT\_mDa	10	//the tolerance of the mass diff in a peak pair and the theoretical mass diff (42.3 mDa*Rum/charge)
 
 //raw files (one file per line)
+
 e:\task\task_NeutronCoding_JCX\data\raw_data\20160809_SILAC.raw
 e:\task\task_NeutronCoding_JCX\data\raw_data\20160705_JCX_SLIAC_DDA_100per.raw 
 
