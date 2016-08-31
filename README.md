@@ -5,7 +5,7 @@ This project is to find neutron coded pairs in MS1 spectra, as an cooperation pr
 
 ## v1.0.1 (2016-8-31)
 
-**(1)Output the m/z when the peak intensity is the max in each XIC**
+**(1) Output the m/z when the peak intensity is the max in each XIC in pep file**
 
 **(2) Add new input format: FindNeutron.exe test.config**
 
