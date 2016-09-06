@@ -2,6 +2,11 @@
 This project is to find neutron coded pairs in MS1 spectra, as an cooperation project with Dr. Chenxi Jia. 
 
 # Change log
+##v1.0.2 (2016-9-6)
+(1) output R number in the pep and pepion result files
+
+(2) output the mean mass of the neutron-coded mono-isotope peak pair (set as m) and calculate the mass of the non-coded peak pair (calculated as m-6.016254*Rnum/charge)
+
 
 ## v1.0.1 (2016-8-31)
 
