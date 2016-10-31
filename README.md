@@ -2,6 +2,13 @@
 This project is to find neutron coded pairs in MS1 spectra, as an cooperation project with Dr. Chenxi Jia. 
 
 # Change log
+
+##v1.0.3 (2016-10-31)
+(1) fix a bug when peak picking
+
+(2) add de-noise function before peak picking (need refinement)
+
+(3) change some default parameters in config file
 ##v1.0.2 (2016-9-6)
 (1) output R number in the pep and pepion result files
 
@@ -22,9 +29,9 @@ MAX_CHARGE	5
 
 SN_CUTOFF	1
 
-PEAK_RINT_CUTOFF	1E-3	//minimum peak relative intensity
+PEAK_RINT_CUTOFF	0	//minimum peak relative intensity,default 0.
 
-PEAK_INT_CUTOFF	1E6	//minimum peak absolute intensity
+PEAK_INT_CUTOFF	1E5	//minimum peak absolute intensity
 
 PEAK_TOLERANCE_PPM	10	//isotope peak mass tolerance: 10 ppm
 
