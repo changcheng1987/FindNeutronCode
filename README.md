@@ -2,7 +2,9 @@
 This project is to find neutron coded pairs in MS1 spectra, as an cooperation project with Dr. Chenxi Jia. 
 
 # Change log
-
+##v1.0.4 (2016-11-11)
+allow the output of multiple R number for one PSM
+ 
 ##v1.0.3 (2016-10-31)
 (1) fix a bug when peak picking
 
