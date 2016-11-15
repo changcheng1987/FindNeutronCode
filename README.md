@@ -2,6 +2,12 @@
 This project is to find neutron coded pairs in MS1 spectra, as an cooperation project with Dr. Chenxi Jia. 
 
 # Change log
+
+##v1.1.0 (2016-11-15 Major improvement!)
+The original algorithm only considered the simplest situation--the peak pair indicated the i-*th* and the i+1 *th* peaks. The new algorithm includes all the possible situations, meaning the i-*th* and i+n *th* peaks within the mass tolerance (n>1) will be considered.
+
+default range: charge=[2,5]; Rnumber=[1,5] 
+
 ##v1.0.4 (2016-11-11)
 allow the output of multiple R number for one PSM
  
