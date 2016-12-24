@@ -3,6 +3,10 @@ This project is to find neutron coded pairs in MS1 spectra, as an cooperation pr
 
 # Change log
 
+##v1.1.2 (2016-12-24) Merry Christmas:-)
+Add a new parameter "NeuCode_Mass" to the config file
+For our method, the NeuCode_Mass is 42.3 mDa, for Coon's method it is 36.6 mDa
+
 ##v1.1.1 (2016-11-17)
 Cancel off the "isused" feature for every isotopic peak.
 Allow multiple neutron-coded peak pairs share the same peak.
