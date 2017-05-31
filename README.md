@@ -2,6 +2,9 @@
 This project is to find neutron coded pairs in MS1 spectra, as an cooperation project with Dr. Chenxi Jia. 
 
 # Change log
+##v1.1.3 (2017-5-31 Major improvement!)
+* Add a new function to find the unlabeled peak for neutron code pair. The mono-isotope and the second isotope of the unlabeled precursor are required. 
+* Modify the project name as *NeutronCodeFinder*
 
 ##v1.1.2 (2016-12-24) Merry Christmas:-)
 Add a new parameter "NeuCode_Mass" to the config file
