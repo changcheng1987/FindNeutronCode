@@ -2,27 +2,27 @@
 This project is to find neutron coded pairs in MS1 spectra, as an cooperation project with Dr. Chenxi Jia. 
 
 # Change log
-##v1.1.3 (2017-5-31 Major improvement!)
+## v1.1.3 (2017-5-31 Major improvement!)
 * Add a new function to find the unlabeled peak for neutron code pair. The mono-isotope and the second isotope of the unlabeled precursor are required. 
 * Modify the project name as *NeutronCodeFinder*
 
-##v1.1.2 (2016-12-24) Merry Christmas:-)
+## v1.1.2 (2016-12-24) Merry Christmas:-)
 Add a new parameter "NeuCode_Mass" to the config file
 For our method, the NeuCode_Mass is 42.3 mDa, for Coon's method it is 36.6 mDa
 
-##v1.1.1 (2016-11-17)
+## v1.1.1 (2016-11-17)
 Cancel off the "isused" feature for every isotopic peak.
 Allow multiple neutron-coded peak pairs share the same peak.
 
-##v1.1.0 (2016-11-15 Major improvement!)
+## v1.1.0 (2016-11-15 Major improvement!)
 The original algorithm only considered the simplest situation--the peak pair indicated the i-*th* and the i+1 *th* peaks. The new algorithm includes all the possible situations, meaning the i-*th* and i+n *th* peaks within the mass tolerance (n>1) will be considered.
 
 default range: charge=[2,5]; Rnumber=[1,5] 
 
-##v1.0.4 (2016-11-11)
+## v1.0.4 (2016-11-11)
 allow the output of multiple R number for one PSM
  
-##v1.0.3 (2016-10-31)
+## v1.0.3 (2016-10-31)
 (1) fix a bug when peak picking
 
 (2) add de-noise function before peak picking (need refinement)
